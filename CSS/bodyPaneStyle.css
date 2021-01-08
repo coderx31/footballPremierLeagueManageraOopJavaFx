@@ -1,0 +1,141 @@
+#header-pane{
+    -fx-min-width: 1000px;
+    -fx-min-height: 100px;
+    -fx-background-color: #FE0562;
+}
+#close-view{
+    -fx-cursor: hand;
+}
+#content-pane{
+    -fx-min-width: 1000px;
+    -fx-min-height: 500px;
+    -fx-background-color: #356AA0;
+}
+#home, #point-table, #play-match, #matches{
+    -fx-text-fill: #fff;
+    -fx-font-family: "consolas";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+#text-pane{
+    -fx-font-size: 16px;
+
+}
+
+#description{
+   -fx-fill: rgba(255,255,255,0.8);
+   -fx-font-family: "Poppins Black";
+}
+.jfx-button {
+     -jfx-button-type: RAISED;
+     -fx-background-color: white;
+     -fx-text-fill: #111;
+     -fx-font-size: 14px;
+     -fx-font-weight: bold;
+     -fx-border-radius: 100px;
+}
+
+#table-pane{
+    -fx-min-width: 1000px;
+    -fx-min-height: 600px;
+    -fx-background-color: #111;
+}
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #009879;
+}
+#play-pane{
+    -fx-min-width: 1000px;
+    -fx-min-height: 600px;
+    -fx-background-color: #2196f3;
+}
+#result-view{
+    -fx-min-width: 500px;
+    -fx-min-height: 250px;
+    -fx-background-color: #111;
+    -fx-background-radius: 15px 0 15px 0;
+}
+
+#heading{
+    -fx-text-fill: #2196f3;
+    -fx-font-family: "Poppins Black";
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+}
+
+#home-team, #opponent-team{
+    -fx-text-fill: #7A7A79;
+    -fx-font-family: "consolas";
+    -fx-font-size: 20px;
+}
+
+#home-score, #opponent-score{
+     -fx-text-fill: #7A7A79;
+     -fx-font-family: "consolas";
+     -fx-font-size: 20px;
+}
+#matchBtn{
+    -fx-background-color: #2196f3;
+    -fx-text-fill: #fff;
+    -fx-font-family: "consolas";
+}
+
+#match-date{
+    -fx-text-fill: #7A7A79;
+    -fx-font-family: "consolas";
+    -fx-font-size: 20px;
+}
+#scl-match, #uni-match{
+     -fx-background-size: 75px 30px;
+     -fx-background-color: #111;
+     -fx-font-family: "Poppins Black";
+     -fx-font-size: 16px;
+     -fx-text-fill: #fff;
+     -fx-cursor: hand;
+}
+#match-pane{
+    -fx-min-width: 1000px;
+    -fx-min-height: 500px;
+    -fx-background-color: #3CAEA3;
+}
+#display-match{
+    -fx-min-width: 100px;
+    -fx-min-height: 30px;
+    -fx-background-color: #173F5F;
+    -fx-font-family: "Poppins Black";
+    -fx-font-size: 16px;
+    -fx-text-fill: #7A7A7A;
+    -fx-cursor: hand;
+}
+#team{
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-font-family: "consolas";
+}
+#score{
+    -fx-text-fill: #fff;
+    -fx-font-size: 48px;
+    -fx-font-family: "consolas";
+}
+#match-holder{
+     -fx-min-width: 300px;
+     -fx-min-height: 200px;
+     -fx-background-color: #658B6F;
+     -fx-padding: 0 30px;
+     -fx-background-radius: 20px;
+}
+#date{
+    -fx-text-fill: #fff;
+    -fx-font-size: 28px;
+    -fx-font-family: "consolas";
+}
+
+#scroll-pane{
+    -fx-fill: #3CAEA3;
+    -fx-padding: 20px 200px;
+}
+
